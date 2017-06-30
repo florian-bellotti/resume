@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name = "author" content = "Florian BELLOTTI"/>
     <meta name = "description" content = "I'm a backend developer an I'm in my fourth year at the French IT engineering school: eXia.CESI. I am looking for a 6 months backend development internship within Agiles teams for my fifth year (the last one)."/>
-    <meta name = "keywords" content = "CV, resume, FLorian BELLOTTI, backend, development, programming, exia, arras, engineer, cesi, bike, mountain, keyneosoft, la mobilery, experian, cupenya, node.js, java, docker, devops"/>
+    <meta name = "keywords" content = "resume, Florian, bellotti, backend, development, programming, devops"/>
     <title>Florian BELLOTTI</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
@@ -17,8 +17,8 @@
       <div class="row">
         <div class="col-xs-12">
           <div id="photo-header" class="text-center">
-            <div id="text-header">
-              <h1><span>Florian BELLOTTI</span><br>Backend developer</h1>
+            <div itemscope itemtype="http://schema.org/Person" id="text-header">
+              <h1><span itemprop="name">Florian BELLOTTI</span><p itemprop="jobTitle">Backend developer</p></h1>
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-7">
           <!-- ABOUT ME -->
-          <div class="box">
+          <div itemscope class="box">
             <h2>About Me</h2>
             <p>I'm a backend developer an I'm in my <strong>fourth year at the French IT engineering school</strong>: eXia.CESI. 
               I am <strong>looking for a 6 months backend development internship</strong> within Agiles 
@@ -38,7 +38,7 @@
             </p>
           </div>
           <!-- EXPERIENCES -->
-          <div class="box">
+          <div itemscope class="box">
             <h2>Experiences</h2>
             <div class="job clearfix">
               <div class="col-xs-3">
@@ -107,7 +107,7 @@
             </div>
           </div>
           <!-- EDUCATION -->
-          <div class="box">
+          <div itemscope class="box">
             <h2>Education</h2>
             <ul id="education" class="clearfix">
               <li>
@@ -127,7 +127,7 @@
             </ul>
           </div>
           <!-- HOBBIES -->
-          <div class="box">
+          <div itemscope class="box">
             <h2>Hobbies</h2>
             <div class="hobby">Bike</div>
             <div class="hobby">Programming</div>
@@ -137,15 +137,15 @@
 
         <div class="col-xs-12 col-sm-5">
           <!-- CONTACT -->
-          <div class="box clearfix">
+          <div itemscope http://schema.org/ContactPoint class="box clearfix">
             <h2>Contact</h2>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
-              <div class="title only pull-right">06.46.50.56.86</div>
+              <div class="title only pull-right" itemprop="telephone">06.46.50.56.86</div>
             </div>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
-              <div class="title only pull-right"><a class="black" href="mailto:florian.bellotti@viacesi.fr">florian.bellotti@viacesi.fr</a></div>
+              <div class="title only pull-right"><a class="black" href="mailto:florian.bellotti@viacesi.fr" itemprop="email">florian.bellotti@viacesi.fr</a></div>
             </div>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
@@ -161,14 +161,14 @@
             </div>
           </div>
           <!-- SKILLS -->
-          <div class="box">
+          <div itemscope class="box">
             <h2>Skills</h2>
             <div class="skills">
-              <div class="item-skills" data-percent="0.7">Node.js</div>
+              <div class="item-skills" data-percent="0.7">Java EE</div>
               <div class="item-skills" data-percent="0.7">MongoDB</div>
               <div class="item-skills" data-percent="0.7">Docker</div>
-              <div class="item-skills" data-percent="0.6">Java EE</div>
               <div class="item-skills" data-percent="0.6">DevOps</div>
+              <div class="item-skills" data-percent="0.5">Node.js</div>
               <div class="item-skills" data-percent="0.5">Spring</div>
               <div class="item-skills" data-percent="0.2">Vert.X</div>
               <div class="skills-legend clearfix">
@@ -180,7 +180,7 @@
             </div>
           </div>
           <!-- Projects -->
-          <div class="box">
+          <div itemscope class="box">
             <h2>Projects</h2>
             <div class="container-fluid">
               <a class="project-link" href="http://izyclim.fr/">
@@ -191,7 +191,7 @@
             </div>
           </div>
           <!-- LANGUAGES -->
-          <div class="box">
+          <div itemscope class="box">
             <h2>Languages</h2>
             <div id="language-skills">
               <div class="skill">French</div>
